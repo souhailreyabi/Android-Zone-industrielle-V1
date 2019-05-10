@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item android:title="Entreprise Manager">
+    <group android:checkableBehavior="single">
+        <menu>
+
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:title="A-Propos" />
+        <item
+            android:id="@+id/nav_zone1"
+            android:icon="@android:drawable/ic_menu_search"
+            android:title="Zone Gzenaya " />
+        <item
+            android:id="@+id/nav_zone2"
+            android:icon="@android:drawable/ic_menu_search"
+            android:title="Free zone  " />
+        <item
+            android:id="@+id/nav_carte"
+            android:icon="@android:drawable/ic_dialog_map"
+            android:title="Localisation sur carte  " />
+        </menu>
+    </group>
+    </item>
+
+
+
+</menu>

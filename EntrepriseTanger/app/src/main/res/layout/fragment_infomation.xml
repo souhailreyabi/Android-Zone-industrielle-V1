@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragmentinfoid"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="75dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Entreprise Manager"
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:textSize="30dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="38dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="     Description:"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:textSize="30dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="32dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="Times New Roman"
+        android:text=" - C'est une application sous Android pour afficher les entreprise de la zone industrielle Gzenaya et Free zone de la ville de Tanger en respectant les critères suivants:
+
+        - Affichage sous forme d’une Liste (nom, domaine d’activité, tél, adresse),
+        - Affichage sous forme d’une carte,
+        - Affichage de position avec les coordonnées,
+        - Possibilité d’ajouter et de supprimer un élément de la liste
+"
+        android:textAlignment="gravity"
+        android:textSize="20dp" />
+</LinearLayout>

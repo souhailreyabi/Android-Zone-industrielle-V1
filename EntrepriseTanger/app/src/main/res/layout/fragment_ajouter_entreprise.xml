@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ajouter_entreprise">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="Ajouter une nouvelle Entreprise"
+        android:textAlignment="center"
+        android:textSize="25dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="25dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtnom"
+            android:layout_width="127dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:text="NOM" />
+
+        <EditText
+            android:id="@+id/editText_nom"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="17dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="127dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:text="DOMAINE" />
+
+        <EditText
+            android:id="@+id/editText_dom"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="21dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tView5"
+            android:layout_width="127dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:text="TELEPHONE" />
+
+        <EditText
+            android:id="@+id/editText_tel"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="26dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="72dp">
+
+        <TextView
+            android:id="@+id/id_zn"
+            android:layout_width="168dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:text="ZONE" />
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="241dp"
+            android:layout_height="57dp"
+            android:layout_weight="1" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="26dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/id_adr"
+            android:layout_width="127dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:text="Adresse" />
+
+        <EditText
+            android:id="@+id/editText_adr"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="31dp"
+            android:layout_weight="1"
+            android:text="Lat" />
+
+        <EditText
+            android:id="@+id/txt_Lat"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="31dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:text="Lng" />
+
+        <EditText
+            android:id="@+id/txt_lng"
+            android:layout_width="127dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_ajout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VALIDER" />
+
+</LinearLayout>
